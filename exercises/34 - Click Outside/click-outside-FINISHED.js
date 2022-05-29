@@ -12,9 +12,9 @@ function handleCardButtonClick(event) {
   // populate the modal with the new info
   modalInner.innerHTML = `
     <img width="600" height="600" src="${imgSrc.replace(
-      "200",
-      "600"
-    )}" alt="${name}"/>
+    "200",
+    "600"
+  )}" alt="${name}"/>
     <p>${desc}</p>
   `;
   // show the modal
